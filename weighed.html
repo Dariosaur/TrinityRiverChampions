@@ -6,6 +6,7 @@
             background:#16C172;
             width: 100%;
             height: 150px;
+            border-radius: 25px;
         }
         .headert{
             padding: 0px;
@@ -68,6 +69,7 @@
           /* This extra margin represent roughly the same space as the space
              between the labels and their text fields */
           margin-left: .5em;
+          font-family: helvetica;
         }
     </style>
     <meta charset="utf-8">
@@ -84,7 +86,7 @@
      </div>
      <div>
       <label for="scale">Weight:</label>
-      <input type="text" id="scale" name="scale_data">
+      <input type="text" id="scale" name="scale_data" value="0.1" disabled>
      </div>
      <div class="button">
         <button type="submit" onclick="sendData({test:'ok'})">SUBMIT</button>
