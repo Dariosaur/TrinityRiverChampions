@@ -3,7 +3,7 @@
   <head>
     <style>
         .box{
-            background:#BFD7EA;
+            background:#16C172;
             width: 100%;
             height: 150px;
         }
@@ -12,7 +12,8 @@
             margin: 0px;
             text-align: center;
             font-size: 10vw;
-            font-family: helvetica;   
+            font-family: helvetica;
+            color:#F6F8FF;
         }
         
         form {
@@ -76,17 +77,14 @@
   </header>
   <body>
    
-    <form action="" method="post">
+    <form action="../weighed.html">
      <div>
     <label for="UID">Unique ID:</label>
     <input type="text" id="UID" name="unique_id">
      </div>
-     <div>
-      <label for="scale">Scale Data:</label>
-      <input type="text" id="scale" name="scale_data">
-     </div>
+     
      <div class="button">
-        <button type="submit" onclick="sendData({test:'ok'})">SUBMIT</button>
+        <button type="submit">WEIGH</button>
      </div>
       
     </form>
